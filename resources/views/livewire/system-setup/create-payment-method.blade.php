@@ -21,7 +21,7 @@
                         name="name"
                         type="text"
                         class="mt-1 w-full block"
-                        placeholder="{{ __('payment-method name') }}"
+                        placeholder="{{ __('example CASH') }}"
                     />
                     <x-input-error :messages="$errors->get('name')" class="mt-2" />
                 </div>
