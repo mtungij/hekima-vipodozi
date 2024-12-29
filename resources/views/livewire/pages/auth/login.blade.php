@@ -65,7 +65,7 @@ $login = function () {
             </a>
 
             <div class="mt-4 flex justify-center">
-        <a href="https://wa.me/255629364847" target="_blank" class="flex items-center text-center px-4 py-2 bg-green-600 rounded-3xl text-white hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2">
+            <a href="https://wa.me/255629364847?text=Hello%20I%20need%20support%20with%20the%20pharmacy%20system" target="_blank" class="flex items-center text-center px-4 py-2 bg-green-600 rounded-3xl text-white hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2">
             <!-- WhatsApp Icon -->
             <i class="fab fa-whatsapp mr-2"></i> 
             {{ __('Need Support? Chat on WhatsApp') }}
