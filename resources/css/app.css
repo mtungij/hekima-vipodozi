@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.md__table_wrapper {
+    @apply relative mt-4 space-y-4 bg-white dark:bg-gray-100/10 overflow-auto whitespace-nowrap
+}
+
+.md__table {
+    @apply w-full border-collapse border dark:border-gray-700
+}
+
+.md__th {
+    @apply p-2 text-xs uppercase border border-cyan-800 bg-cyan-900 text-white 
+}
+
+.md__thead {
+    @apply dark:text-gray-300;
+}
+
+.md__th1 {
+    @apply text-left sticky left-0 top-0 z-20
+}
+
+.md__tbody {
+    @apply text-gray-600 dark:text-gray-400
+}
+
+.md__td {
+    @apply p-2 text-sm border dark:border-gray-700
+}
+
+.md__td1 {
+    @apply bg-white dark:bg-gray-800 sticky left-0
+}
+
+
+.md__tr {
+    @apply transition-colors hover:bg-gray-200/90 dark:hover:bg-gray-700/50 data-[state=selected]:bg-gray-100/50
+}
+
+.md__action_navigate {
+    @apply text-white hover:text-gray-300 font-semibold flex items-center gap-2 bg-gray-700 dark:bg-gray-400/50 hover:bg-gray-600 cursor-pointer py-1 px-2
+}
